@@ -1,11 +1,18 @@
-# 📦 Inventory Management System
+# Inventory Management System
 
-> **Amunei AI — Intern Coding Challenge Submission**
 > A full-stack warehouse inventory manager built with FastAPI, SQLite, ReactJS, and auto-generated Python SDK.
 
 ---
 
-## 🚀 Quick Start (Windows)
+## Key Features
+- Add / view / update inventory items
+- Prevent negative stock
+- Automatic low-stock alerts
+- React dashboard
+- OpenAPI-generated Python SDK
+- Automated setup scripts
+
+##  Quick Start (Windows)
 
 ```bash
 # Step 1: Clone / extract the project
@@ -17,6 +24,19 @@ setupdev.bat
 # Step 3: Launch the full application
 runapplication.bat
 ```
+## Screenshots
+
+### Frontend Dashboard
+![Frontend](screenshots/frontend.png)
+
+### Swagger Overview
+![Swagger 1](screenshots/swagger-1.png)
+
+### Swagger Endpoint Testing
+![Swagger 2](screenshots/swagger-2.png)
+
+### Unit Tests
+![Tests](screenshots/tests.png)
 
 | Service | URL |
 |---------|-----|
@@ -330,21 +350,24 @@ pytest tests/ -v
 
 | Criterion | Status |
 |-----------|--------|
-| ✅ Code Quality — well-structured, modular | Done |
-| ✅ Correct API Implementation — follows OpenAPI standards | Done |
-| ✅ Proper Error Handling — 4xx/5xx with detail messages | Done |
-| ✅ Platform SDK — generated via OpenAPI Generator CLI | Done |
-| ✅ Frontend Integration — React via Axios only (no direct DB) | Done |
-| ✅ Automation Scripts — `setupdev.bat` + `runapplication.bat` | Done |
-| ✅ Unit Tests — 20+ covering all endpoints + trick logic | Done |
-| ✅ Backend Trick Logic — negative stock rejected + low-stock alerts | Done |
-| ✅ Documentation — this README | Done |
-| 🌟 Bonus: Real-time updates (15s polling) | Done |
+| ✅ Code Quality — well-structured, modular | Implemented |
+| ✅ Correct API Implementation — follows OpenAPI standards | Implemented |
+| ✅ Proper Error Handling — 4xx/5xx with detail messages | Implemented |
+| ✅ Platform SDK — generated via OpenAPI Generator CLI | Implemented |
+| ✅ Frontend Integration — React via Axios only (no direct DB) | Implemented |
+| ✅ Automation Scripts — `setupdev.bat` + `runapplication.bat` | Implemented |
+| ✅ Unit Tests — 20+ covering all endpoints + trick logic | Implemented |
+| ✅ Backend Trick Logic — negative stock rejected + low-stock alerts | Implemented |
+| ✅ Documentation — this README | Implemented |
+| 🌟 Bonus: Real-time updates (15s polling) | Verified |
+
+## Future Improvements
+- Authentication / user roles
+- CSV import / export
+- WebSocket real-time updates
+- Docker deployment
+- Audit logs
 
 ---
 
-## 👤 Submission
 
-GitHub Repository: *(add your link here)*
-
-Built for the **Amunei AI Intern Coding Challenge** — April 2026.
