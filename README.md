@@ -12,7 +12,7 @@
 - OpenAPI-generated Python SDK
 - Automated setup scripts
 
-##  Quick Start (Windows)
+## Quick Start (Windows)
 
 ```bash
 # Step 1: Clone / extract the project
@@ -362,10 +362,10 @@ pytest tests/ -v
 | 🌟 Bonus: Real-time updates (15s polling) | Verified |
 
 ## Future Improvements
-- Authentication / user roles
-- CSV import / export
-- WebSocket real-time updates
-- Docker deployment
+- Authentication / RBAC
+- CSV import/export
+- WebSocket live updates
+- Email low-stock alerts
 - Audit logs
 
 ---
