@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/.env.local
+
+# Generated SDK (re-generate with generate_sdk.bat)
+inventory_sdk/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic (keep versions, ignore pycache)
+backend/alembic/__pycache__/
+
+hs_err_pid*.log
+replay_pid*.log
+__pycache__/
+*.pyc
+.env
+node_modules/
