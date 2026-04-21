@@ -1,6 +1,5 @@
 # 📦 Inventory Management System
 
-> **Amunei AI — Intern Coding Challenge Submission**
 > A full-stack warehouse inventory manager built with FastAPI, SQLite, ReactJS, and auto-generated Python SDK.
 
 ---
@@ -343,8 +342,4 @@ pytest tests/ -v
 
 ---
 
-## 👤 Submission
 
-GitHub Repository: *(add your link here)*
-
-Built for the **Amunei AI Intern Coding Challenge** — April 2026.
